@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> GAME </title>
+
+<script src='GAME.js'></script>
+<link rel='stylesheet' href='GAME.css'>
+</head>
+<body onload="defaultPos()">
+
+
+
+<div id="mydiv1" onclick ='Check(this)'>
+  <!-- Include a header DIV with the same name as the draggable DIV, followed by "header" -->
+  <div id="mydiv1header">Click here to move</div>
+  <h1 id='point'>0</h1>
+</div>
+<div>
+<table border=1 >
+
+<tr >
+<td id='td1' class="task" onmouseenter="block1('1')" >
+
+</td>
+<td id='td2' class="" onmouseenter="block1('2')">
+
+</td>
+<td id='td3' class="" onmouseenter="block1('3')">
+</td>
+</tr>
+
+<tr>
+<td id='td4' class="" onmouseenter="block1('4')">
+</td>
+<td id='td5' class="" onmouseenter="block1('5')">
+</td>
+<td id='td6' class="" onmouseenter="block1('6')">
+
+</td>
+</tr>
+
+</table>
+</div>
+<div id='dvTEST' style='height:200px;'>
+<input id='TEST' class='TestCheck' type="checkbox" value='CHECK TEST' onclick='ClickEvent(this)' />
+</div>
+</body>
+</html>

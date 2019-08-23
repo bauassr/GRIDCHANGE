@@ -1,0 +1,42 @@
+#mydiv1 {
+  position: absolute;
+  z-index: 9;
+  background-color: #f1f1f1;
+  border: 1px solid #d3d3d3;
+  text-align: center;
+  top:10px;
+  left:10px;
+ 
+}
+
+h1{
+	padding:10%;
+}
+
+.TestCheck{ 
+  border :block;
+  background-color: #D3F3F3; /* For browsers that do not support gradients */
+  background-image: linear-gradient(#BBF3C5,#D3F3F3 ); /* Standard syntax (must be last) */
+}
+
+
+table{
+	margin-top:10%;
+	width:100%;
+}
+
+tr{
+	height:200px;
+}
+
+td{
+	width:33px;
+}
+
+#mydiv1header {
+  padding: 10px;
+  cursor: move;
+  z-index: 10;
+  background-color: #2196F3;
+  color: #fff;
+}
